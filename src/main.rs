@@ -1,0 +1,48 @@
+mod print;
+mod vars;
+mod types;
+mod strings;
+mod tuples;
+mod arrays;
+mod vectors;
+mod conditionals;
+mod loops;
+mod functions;
+mod pointer_ref;
+mod structs;
+mod enums;
+mod cli;
+mod traits;
+
+fn main() {
+    println!("=====PRINT=====");
+    print::run();
+    println!("=====VARS=====");
+    vars::run();
+    println!("=====TYPES=====");
+    types::run();
+    println!("=====STRINGS=====");
+    strings::run();
+    println!("=====TUPLES=====");
+    tuples::run();
+    println!("=====ARRAYS=====");
+    arrays::run();
+    println!("=====VECTORS=====");
+    vectors::run();
+    println!("=====CONDITIONALS=====");
+    conditionals::run();
+    println!("=====LOOPS=====");
+    loops::run();
+    println!("=====FUNCTIONS=====");
+    functions::run();
+    println!("=====POINTERS / REFS=====");
+    pointer_ref::run();
+    println!("=====STRUCTS=====");
+    structs::run();
+    println!("=====ENUMS=====");
+    enums::run();
+    println!("=====CLI=====");
+    cli::run();
+    println!("=====TRAITS=====");
+    traits::run();
+}
