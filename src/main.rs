@@ -1,18 +1,20 @@
-mod print;
-mod vars;
-mod types;
-mod strings;
-mod tuples;
+mod alient_types;
 mod arrays;
-mod vectors;
-mod conditionals;
-mod loops;
-mod functions;
-mod pointer_ref;
-mod structs;
-mod enums;
 mod cli;
+mod conditionals;
+mod enums;
+mod functions;
+mod loops;
+mod pointer_ref;
+mod print;
+mod strings;
+mod structs;
 mod traits;
+mod tuples;
+mod types;
+mod vars;
+mod vectors;
+mod wrap_unwrap;
 
 fn main() {
     println!("=====PRINT=====");
@@ -45,4 +47,8 @@ fn main() {
     cli::run();
     println!("=====TRAITS=====");
     traits::run();
+    println!("===WRAP UNWRAP===");
+    wrap_unwrap::run();
+    println!("===ALIENT TYPES===");
+    alient_types::run();
 }
